@@ -1,0 +1,26 @@
+TODO
+1. send/recv only power of 2 bytes?
+2. try poll2, poll3 vs. poll()
+ Orib says poll vs select is a little more efficient, as it doesn't overwrite the list of sockets with status.
+3. make the timeout of poll(0.05) a param of stacklesssocket module
+4. try the twisted method in ~/stackless
+
+Roadmap:
+Enable good expansion for the following:
+1. Collision detection manner:
+ - box CD for simple sprites.
+ - computed CD for fixed actors like "the world boundaries", "geometric obstacles" (even non contiguous)
+2. Frame calc/action
+ - for moving in a pattern or algorithm
+ - for making decisions - shoot, etc.
+ - for moving myself in some way - vector+speed, teleport, etc.
+
+Release Notes:
+1. Uses multicast, from python-examples
+/usr/share/doc/python2.4/examples/Demo/sockets/mcast.py
+2. Kills an actor on quitting (not a zombie anymore.)
+3. stacklesssocket.py has also some functions of network-byte orders now.
+ maybe it should support all not-"socket" module items.
+
+import command:
+cvs -z3 -d:ext:shahary@gogo.cvs.sourceforge.net:/cvsroot/gogo import -m "initial import into CVS" gogo shahary start
