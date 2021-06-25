@@ -1,0 +1,1 @@
+env PYTHONPATH=/usr/lib/python2.4/site-packages ~shahar/python-2.5/python $1

@@ -1,0 +1,1 @@
+env PYTHONPATH=~shahar/stackless/stackless-24-export/Lib/site-packages:/usr/lib/python2.4/site-packages ~shahar/stackless/stackless-24-export/python $1 $2 $3 $4
