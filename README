@@ -1,0 +1,40 @@
+License
+=======
+GNU GPL defines license terms of this software:
+http://www.gnu.org/copyleft/gpl.html
+
+Installation
+============
+1. Install Python 2.4 or above.
+2. Install Stackless.
+3. Install Pygame.
+Be sure to install both onto the same Python installation.
+
+Usage
+=====
+1. Run server.py. 
+Specify -m to use UDP multicast.
+2. Run client.py on each client machine (currently only 2 clients will work).
+Again, -m for multicast.
+Specify host using "-h hostname"
+
+You will have a ship to control - move, shoot and lay mines.
+A square in the middle of the window will spawn new enemy droids.
+Some droids lay mines, so be careful.
+You get 10 pts for shooting down a droid, 100 for a college human player.
+
+Keyboard Input
+==============
+Arrows to navigate.
+SPACEBAR to shoot.
+M to lay a mine.
+ENTER to revive ship.
+ESCAPE to quit.
+
+
+Credits
+=======
+The idea and some of the kernel of the code is from:
+The tutorial "Introduction to Concurrent Programming with Stackless Python", written by Grant Olson:
+http://members.verizon.net/olsongt/stackless/why_stackless.html
+
